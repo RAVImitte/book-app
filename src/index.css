@@ -1,0 +1,75 @@
+.Global {
+  text-align: center;
+  padding: 10px;
+  color:antiquewhite;
+}
+
+body{
+  background-color: #7fa493;
+  /* background-image:  url("https://th.bing.com/th/id/R.4a95364a65cfb6af85a8b2e06b92a0b7?rik=jajeRfJUHKB3lA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f91%2f90%2fBmhy8U.jpg&ehk=kpkA%2fMKipE4nG21Tmhrv1eHiHmzV%2fHtdyqCj3tLkCSE%3d&risl=&pid=ImgRaw&r=0");; */
+}
+
+/* Gallery Styles */ 
+.book {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+#booook {
+  display: flex;
+  justify-content : space-between;
+  background-color:#3f6357;
+  border: solid #eecccb;
+  margin:13px;
+  padding: 20px;
+}
+
+#main-title{
+  color:#443345;
+}
+h2{
+  
+  color:#7fa493;
+}
+
+
+#titles{
+  width: 30%;
+  margin: 10px;
+  border-right:10px solid antiquewhite;
+} 
+
+#desc{
+  color:#eecccb;
+  width: 70%;
+  margin-right:10px;
+  
+}
+
+.book-img {
+  width: 220px;
+  height: 220px;
+  border: 4px solid #000;
+  border-radius: 4px;
+  object-fit: cover;
+  position: absolute;
+}
+
+
+
+.book-text {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.75;
+  width: 214px;
+  margin-left: 3px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
